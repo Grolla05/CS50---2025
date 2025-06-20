@@ -1,12 +1,14 @@
 # CS50x - Minha Jornada no Curso de Introdução à Ciência da Computação de Harvard
 
-![Harvard CS50](https://i.imgur.com/x06w439.png)
-
 ## 📖 Sobre este Repositório
 
 Este repositório contém todas as minhas anotações, projetos, e soluções para os conjuntos de problemas (Problem Sets) desenvolvidos durante o curso **CS50's Introduction to Computer Science** da Universidade de Harvard, oferecido através da plataforma edX. O objetivo deste espaço é documentar meu progresso, aprendizados e as soluções que implementei, servindo como um portfólio do conhecimento adquirido.
 
 O CS50 é um curso introdutório que abrange os fundamentos da ciência da computação e da arte da programação. A jornada de aprendizado é intensa e desafiadora, passando por diferentes linguagens e conceitos essenciais para a formação de um programador.
+
+<p aling="center">
+  <img src="https://www.classcentral.com/report/wp-content/uploads/2022/05/cs50-2023-banner-e1673610020393.png">
+</p>
 
 ## 📚 Estrutura do Curso e Tecnologias
 
@@ -17,6 +19,10 @@ O curso é dividido em "semanas", cada uma focando em um tópico específico. As
 -   **SQL:** Introdução a bancos de dados, permitindo a manipulação e consulta de grandes volumes de informação.
 -   **HTML, CSS e JavaScript:** Os pilares do desenvolvimento web, utilizados para criar aplicações web interativas e dinâmicas.
 -   **Flask:** Um microframework em Python para o desenvolvimento de aplicações web.
+
+<p aling="center">
+<img src="https://www.classcentral.com/report/wp-content/uploads/2022/05/cs50-2023-student-demo.png">
+</p>
 
 Além das linguagens, o curso explora conceitos fundamentais como:
 
@@ -57,3 +63,7 @@ Ao concluir o curso e o projeto final, pretendo adicionar o certificado de concl
 ---
 
 **Observação:** As soluções aqui presentes representam meu próprio trabalho e esforço para resolver os problemas propostos pelo curso. Elas são publicadas com o intuito de demonstrar o conhecimento que adquiri. Se você está atualmente cursando o CS50, utilize este repositório como referência, mas sempre priorize o desenvolvimento de suas próprias soluções, em conformidade com a política de honestidade acadêmica do curso.
+
+<p aling="center">
+<img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*IYCifTCCR2ah-79u94Z3wg.png">
+</p>
