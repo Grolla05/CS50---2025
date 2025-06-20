@@ -1,0 +1,11 @@
+sort1 uses: bubble sort
+
+How do you know?: Because it was the slowest of the three when processing the list, which is characteristic of Bubble Sort's performance in its O(n²) worst-case scenario.
+
+sort2 uses: merge sort
+
+How do you know?: Because it was significantly faster than the other two, which corresponds to the O(n log n) efficiency of Merge Sort.
+
+sort3 uses: selection sort
+
+How do you know?: By elimination. Its O(n²) performance placed it between the fastest algorithm (Merge Sort) and the slowest (Bubble Sort) for this dataset.
