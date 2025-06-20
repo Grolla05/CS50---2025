@@ -1,0 +1,24 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Greet</title>
+    </head>
+
+    <body>
+        <h1>Greet</h1>-->
+
+{% extends "layout.html" %}
+
+{% block body %}
+
+    Hello,
+    {% if name %}
+        {{name}}
+    {% else %}
+        world
+    {% endif %}
+
+{% endblock %}
+
+<!--</body>
+</html>-->
