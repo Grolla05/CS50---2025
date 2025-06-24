@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+{% block body %}
+    <h2 class="text-2xl font-semibold text-gray-700 mb-6 text-center">Items in the database in real time</h2>
+    <div class="flex justify-center gap-4 mb-4">
+        <button id="sortAsc" class="bg-red-700 hover:bg-red-800 text-white font-semibold py-2 px-4 rounded transition">Valor Crescente &#8593;</button>
+        <button id="sortDesc" class="bg-red-700 hover:bg-red-800 text-white font-semibold py-2 px-4 rounded transition">Valor Decrescente &#8595;</button>
+        <button id="sortQtyAsc" class="bg-blue-700 hover:bg-blue-800 text-white font-semibold py-2 px-4 rounded transition">Quantidade Crescente &#8593;</button>
+        <button id="sortQtyDesc" class="bg-blue-700 hover:bg-blue-800 text-white font-semibold py-2 px-4 rounded transition">Quantidade Decrescente &#8595;</button> 
+    </div>
+    <div class="overflow-x-auto">
+        <table class="min-w-full bg-white rounded-xl shadow-lg border border-gray-200">
+            <thead>
+                <tr class="bg-gradient-to-r from-red-900 to-red-700 text-white">
+                    <th class="py-3 px-6 rounded-tl-xl">ID</th>
+                    <th class="py-3 px-6">Name</th>
+                    <th class="py-3 px-6">Quantity of Product</th>
+                    <th class="py-3 px-6 rounded-tr-xl">Unit value</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody">
+                {% for item in items %}
+                    <tr class="{% if loop.index0 % 2 == 0 %}bg-gray-50{% else %}bg-white{% endif %} hover:bg-red-50 transition-colors">
+                        <td class="py-2 px-6 text-center font-semibold text-gray-800">{{ item.id }}</td>
+                        <td class="py-2 px-6 text-center">{{ item.name }}</td>
+                        <td class="py-2 px-6 text-center">{{ item.quantity }}</td>
+                        <td class="py-2 px-6 text-center text-green-700 font-bold">U$ {{ "%.2f"|format(item.value) }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <script src="{{ url_for('static', filename='filtro.js') }}"></script>
+{% endblock %}
