@@ -51,7 +51,7 @@ Dentro de cada pasta, você encontrará o código-fonte das minhas soluções, b
 
 ## 🎓 Certificado
 
-Ao concluir o curso e o projeto final, pretendo adicionar o certificado de conclusão aqui.
+<img src="">
 
 ## 🔗 Links Úteis
 
