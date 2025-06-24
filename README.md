@@ -1,5 +1,9 @@
 # CS50x - Minha Jornada no Curso de Introdução à Ciência da Computação de Harvard
 
+## 🎓 Certificado
+
+<img src="CS50x Certificate.png">
+
 ## 📖 Sobre este Repositório
 
 Este repositório contém todas as minhas anotações, projetos, e soluções para os conjuntos de problemas (Problem Sets) desenvolvidos durante o curso **CS50's Introduction to Computer Science** da Universidade de Harvard, oferecido através da plataforma edX. O objetivo deste espaço é documentar meu progresso, aprendizados e as soluções que implementei, servindo como um portfólio do conhecimento adquirido.
@@ -49,10 +53,6 @@ Cada pasta neste repositório corresponde a uma semana de estudo e seus respecti
 
 Dentro de cada pasta, você encontrará o código-fonte das minhas soluções, bem como arquivos `README.md` com descrições dos desafios e das abordagens que utilizei.
 
-## 🎓 Certificado
-
-<img src="">
-
 ## 🔗 Links Úteis
 
 -   [Página Oficial do CS50x](https://cs50.harvard.edu/x/2024/)
@@ -63,7 +63,3 @@ Dentro de cada pasta, você encontrará o código-fonte das minhas soluções, b
 ---
 
 **Observação:** As soluções aqui presentes representam meu próprio trabalho e esforço para resolver os problemas propostos pelo curso. Elas são publicadas com o intuito de demonstrar o conhecimento que adquiri. Se você está atualmente cursando o CS50, utilize este repositório como referência, mas sempre priorize o desenvolvimento de suas próprias soluções, em conformidade com a política de honestidade acadêmica do curso.
-
-<p aling="center">
-<img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*IYCifTCCR2ah-79u94Z3wg.png">
-</p>
